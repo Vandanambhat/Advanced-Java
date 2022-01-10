@@ -6,18 +6,17 @@ import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.Id;
 import javax.persistence.Table;
-
 @Entity
-@Table(name = "country_details")
+@Table(name="country_details")
 public class CountryEntity implements Serializable {
-	@Id
-	@Column(name = "id")
+@Id
+	@Column(name="id")
 	private int id;
-	@Column(name = "name")
+@Column(name="name")
 	private String name;
-	@Column(name = "continent")
+@Column(name="continent")
 	private String continent;
-	@Column(name = "population")
+@Column(name="population")
 	private String population;
 
 	public CountryEntity() {
