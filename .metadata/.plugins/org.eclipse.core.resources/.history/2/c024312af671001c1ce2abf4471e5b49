@@ -1,0 +1,13 @@
+package com.xworkz.country.dao;
+
+import com.xworkz.country.entity.CountryEntity;
+
+public class CountryDAOimpl implements CountryDAO{
+
+	@Override
+	public void create(CountryEntity entity) {
+		// TODO Auto-generated method stub
+		
+	}
+
+}

@@ -1,0 +1,5 @@
+package com.xworkz.country.dao;
+
+public interface CountryDAO {
+
+}
