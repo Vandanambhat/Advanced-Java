@@ -1,0 +1,10 @@
+package com.xworkz.entity;
+
+public class CompanyEntity {
+
+	private int c_id;
+	private String c_name;
+	private String c_type;
+	private String c_domain;
+	private String c_website;
+}

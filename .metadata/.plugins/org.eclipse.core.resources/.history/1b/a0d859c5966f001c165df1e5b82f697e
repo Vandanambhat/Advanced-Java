@@ -1,0 +1,22 @@
+package com.xworkz.company;
+
+import com.xworkz.company.dao.CompanyDAO;
+import com.xworkz.company.dao.CompanyDAOImpl;
+import com.xworkz.company.entity.CompanyEntity;
+
+public class CompanyOmicron {
+
+	public static void main(String[] args) {
+
+		CompanyEntity companyEntity=new CompanyEntity();
+		companyEntity.setC_id(1);
+		companyEntity.setC_name("X-workz");
+		companyEntity.setC_type("Training");
+		companyEntity.setC_domain("IT");
+		companyEntity.setC_website("www.xworkzodc");
+		CompanyEntity companyEntity1=new CompanyEntity(2, "Cognizant", "Service Based", "IT", "www.Cognizant");
+		
+		CompanyDAO dao=new CompanyDAOImpl();
+	}
+
+}
