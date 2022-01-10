@@ -1,0 +1,21 @@
+package com.xworkz.State;
+
+import com.xworkz.State.dao.StateDAO;
+import com.xworkz.State.dao.StateDAOImpl;
+import com.xworkz.State.entity.StateEntity;
+
+public class StateOmicron {
+
+	public static void main(String[] args) {
+		StateEntity countryEntity1 = new StateEntity(2,"scotland", 34, "54.5 lakhs");
+		StateEntity countryEntity2= new StateEntity(3,"singapore", 23, "56.9 lakhs");
+		StateEntity countryEntity3= new StateEntity(7,"switzerland", 15, "86.4 lakhs");
+		
+		StateDAO dao = new StateDAOImpl();
+		dao.create(countryEntity1);
+		dao.create(countryEntity2);
+		dao.create(countryEntity3);
+
+	}
+
+}

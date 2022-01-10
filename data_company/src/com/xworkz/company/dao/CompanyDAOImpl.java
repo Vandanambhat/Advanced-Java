@@ -1,5 +1,4 @@
 package com.xworkz.company.dao;
-
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
 import org.hibernate.Transaction;
