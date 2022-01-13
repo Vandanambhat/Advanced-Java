@@ -6,33 +6,31 @@ import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.Id;
 import javax.persistence.Table;
+
 @Entity
-@Table(name="silk_manufactures")
+@Table(name = "silk_manufactures")
 
-public class SilkManufacturerEntity implements Serializable{
-	
+public class SilkManufacturerEntity implements Serializable {
+
 	@Id
-	@Column(name="id")
+	@Column(name = "id")
 	private int silkId;
-	@Column(name="mf_state")
+	@Column(name = "mf_state")
 	private String manufacturedState;
-	@Column(name="percentage_of_prod")
+	@Column(name = "percentage_of_prod")
 	private float percentageOfProduction;
-	@Column(name="elasticity")
+	@Column(name = "elasticity")
 	private String elasticity;
-	@Column(name="silk_type")
+	@Column(name = "silk_type")
 	private String silkType;
-	@Column(name="silk_cost")
+	@Column(name = "silk_cost")
 	private double cost;
-	@Column(name="quality")
+	@Column(name = "quality")
 	private boolean goodQuality;
-	
-	
-	public SilkManufacturerEntity()
-	{
-		
-	}
 
+	public SilkManufacturerEntity() {
+System.out.println("Invoked no-arg SilkManufacturerEntity");
+	}
 
 	public SilkManufacturerEntity(int silkId, String manufacturedState, float percentageOfProduction, String elasticity,
 			String silkType, double cost, boolean goodQuality) {
@@ -46,76 +44,61 @@ public class SilkManufacturerEntity implements Serializable{
 		this.goodQuality = goodQuality;
 	}
 
-
 	public int getSilkId() {
 		return silkId;
 	}
-
 
 	public void setSilkId(int silkId) {
 		this.silkId = silkId;
 	}
 
-
 	public String getManufacturedState() {
 		return manufacturedState;
 	}
-
 
 	public void setManufacturedState(String manufacturedState) {
 		this.manufacturedState = manufacturedState;
 	}
 
-
 	public float getPercentageOfProduction() {
 		return percentageOfProduction;
 	}
-
 
 	public void setPercentageOfProduction(float percentageOfProduction) {
 		this.percentageOfProduction = percentageOfProduction;
 	}
 
-
 	public String getElasticity() {
 		return elasticity;
 	}
-
 
 	public void setElasticity(String elasticity) {
 		this.elasticity = elasticity;
 	}
 
-
 	public String getSilkType() {
 		return silkType;
 	}
-
 
 	public void setSilkType(String silkType) {
 		this.silkType = silkType;
 	}
 
-
 	public double getCost() {
 		return cost;
 	}
-
 
 	public void setCost(double cost) {
 		this.cost = cost;
 	}
 
-
 	public boolean isGoodQuality() {
 		return goodQuality;
 	}
 
-
 	public void setGoodQuality(boolean goodQuality) {
 		this.goodQuality = goodQuality;
 	}
-
 
 	@Override
 	public String toString() {
@@ -123,7 +106,6 @@ public class SilkManufacturerEntity implements Serializable{
 				+ ", percentageOfProduction=" + percentageOfProduction + ", elasticity=" + elasticity + ", silkType="
 				+ silkType + ", cost=" + cost + ", goodQuality=" + goodQuality + "]";
 	}
-
 
 	@Override
 	public int hashCode() {
@@ -140,7 +122,6 @@ public class SilkManufacturerEntity implements Serializable{
 		result = prime * result + ((silkType == null) ? 0 : silkType.hashCode());
 		return result;
 	}
-
 
 	@Override
 	public boolean equals(Object obj) {
