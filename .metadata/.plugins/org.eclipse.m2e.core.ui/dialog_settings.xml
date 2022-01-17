@@ -7,6 +7,7 @@
 		<list key="name">
 		</list>
 		<list key="artifactId">
+			<item value="JPA_examples"/>
 			<item value="data_company"/>
 		</list>
 		<list key="version">

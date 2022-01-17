@@ -5,14 +5,14 @@ import javax.persistence.Persistence;
 
 public class EMFUtil {
 
-	private static EntityManagerFactory emf;
+	private static EntityManagerFactory entityManagerFactory;
 
-	public static EntityManagerFactory getEmf() {
-		return emf;
+	public static EntityManagerFactory getEntityManagerFactory() {
+		return entityManagerFactory;
 	}
 
 	static {
-		emf = Persistence.createEntityManagerFactory("com.xworkz.tour");
+		entityManagerFactory = Persistence.createEntityManagerFactory("com.xworkz.tour");
 
 	}
 

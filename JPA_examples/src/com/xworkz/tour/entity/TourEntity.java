@@ -31,6 +31,7 @@ public class TourEntity implements Serializable {
 
 	public TourEntity(int id, String location, float sealevel, String famousFor, double entryFees, String season) {
 		super();
+		System.out.println("Invoked parameterized TourEntity");
 		this.id = id;
 		this.location = location;
 		this.sealevel = sealevel;

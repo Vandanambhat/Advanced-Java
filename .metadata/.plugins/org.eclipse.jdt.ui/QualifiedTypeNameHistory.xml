@@ -10,10 +10,23 @@
     <fullyQualifiedTypeName name="com.mysql.cj.xdevapi.SessionFactory"/>
     <fullyQualifiedTypeName name="org.hibernate.SessionFactory"/>
     <fullyQualifiedTypeName name="org.hibernate.Session"/>
-    <fullyQualifiedTypeName name="org.hibernate.Transaction"/>
     <fullyQualifiedTypeName name="com.xworkz.company.CompanyOmicron"/>
     <fullyQualifiedTypeName name="com.xworkz.company.dao.CompanyDAO"/>
     <fullyQualifiedTypeName name="com.xworkz.company.entity.CompanyEntity"/>
     <fullyQualifiedTypeName name="com.xworkz.City.entity.CityEntity"/>
     <fullyQualifiedTypeName name="com.xworkz.Patient.entity.PatientEntity"/>
+    <fullyQualifiedTypeName name="com.xworkz.tour.dao.TourDAOImpl"/>
+    <fullyQualifiedTypeName name="com.xworkz.tour.dao.TourDAO"/>
+    <fullyQualifiedTypeName name="javax.persistence.EntityManagerFactory"/>
+    <fullyQualifiedTypeName name="javax.persistence.EntityManager"/>
+    <fullyQualifiedTypeName name="com.xworkz.tour.utility.EMFUtil"/>
+    <fullyQualifiedTypeName name="com.xworkz.tour.entity.SilkManufacturerEntity"/>
+    <fullyQualifiedTypeName name="com.xworkz.tour.dao.SilkManufacturerDAO"/>
+    <fullyQualifiedTypeName name="com.xworkz.tour.dao.SilkManufacturerDAOImpl"/>
+    <fullyQualifiedTypeName name="javax.persistence.PersistenceException"/>
+    <fullyQualifiedTypeName name="javax.persistence.EntityTransaction"/>
+    <fullyQualifiedTypeName name="org.hibernate.Transaction"/>
+    <fullyQualifiedTypeName name="java.util.List"/>
+    <fullyQualifiedTypeName name="java.util.ArrayList"/>
+    <fullyQualifiedTypeName name="com.xworkz.tour.entity.TourEntity"/>
 </qualifiedTypeNameHistroy>

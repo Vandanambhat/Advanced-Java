@@ -1,6 +1,7 @@
 package com.xworkz.tour.dao;
 
 import javax.persistence.EntityManager;
+
 import javax.persistence.EntityManagerFactory;
 import javax.persistence.EntityTransaction;
 
@@ -11,7 +12,7 @@ public class SilkManufacturerDAOImpl implements SilkManufacturerDAO{
 
 	@Override
 	public void put(SilkManufacturerEntity entity) {
-		EntityManagerFactory emf=EMFUtil.getEmf();
+		EntityManagerFactory emf=EMFUtil.getEntityManagerFactory();
 		EntityManager entityManager=emf.createEntityManager();
 		EntityTransaction tx=entityManager.getTransaction();
 		tx.begin();
