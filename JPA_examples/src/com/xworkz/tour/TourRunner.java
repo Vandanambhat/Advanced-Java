@@ -63,7 +63,9 @@ public class TourRunner {
 		tourEntities.add(new TourEntity(48, "Greenland", 143, "vast tundra and immense glaciers", 8253746d, "Rainy"));
 		tourEntities.add(new TourEntity(49, "afghanistan", 1207, "fine fruits", 234627d, "Winter"));
 		tourEntities.add(new TourEntity(50, "venice", 383, "City of Canals", 4327687d, "Winter"));
-		tourEntities.add(new TourEntity(51, "Nashik", 945, "Harihar fort ", 37672d, "Rainy"));
+		tourEntities.add(new TourEntity(51, ""
+				+ ""
+				+ "Nashik", 945, "Harihar fort ", 37672d, "Rainy"));
 		tourEntities.add(new TourEntity(52, "Nashik", 2161, "harishchandragad", 3284478d, "Rainy"));
 		tourEntities.add(new TourEntity(53, "coimbatore", 9998, "Adiyogi Shiva statue", 2462376d, "Winter"));
 		tourEntities.add(new TourEntity(54, "uttarakhand ", 1207, "Kedarnath", 82468d, "Rainy"));

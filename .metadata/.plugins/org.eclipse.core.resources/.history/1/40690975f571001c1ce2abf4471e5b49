@@ -1,8 +1,0 @@
-package com.xworkz.country.dao;
-
-import com.xworkz.company.entity.CompanyEntity;
-
-public interface CountryDAO {
-
-	public void create(CountryEntity entity);
-}

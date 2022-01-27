@@ -59,13 +59,14 @@ public class TourDAOImpl implements TourDAO {
 					}
 					manager.flush();
 					flushCount++;
+					tx.commit();
 				}
 			} catch (PersistenceException e) {
 				e.printStackTrace();
 				tx.rollback();
 			}
 
-			tx.commit();
+
 		}
 	}
 }
