@@ -7,5 +7,5 @@ import com.xworkz.travel.entity.TravelEntity;
 public interface TravelAgencyService {
 
 	public boolean validateAndSave(List<TravelEntity> entity);
-	
+
 }

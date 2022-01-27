@@ -2979,3 +2979,60 @@ Caused by: org.codehaus.plexus.util.xml.pull.XmlPullParserException: Unrecognise
 2022-01-25 22:34:23,765 [Worker-17: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Eclipse upload\Advanced_Java\mini_project\src\main\resources
 2022-01-25 22:34:23,770 [Worker-17: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
 2022-01-25 22:34:23,772 [Worker-17: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Eclipse upload\Advanced_Java\mini_project\src\test\resources
+2022-01-27 11:28:28,407 [Worker-13: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/singletonemf: com.xworkz:singletonemf:0.0.1-SNAPSHOT with classifier  to /singletonemf/target/classes
+2022-01-27 11:28:30,244 [Worker-13: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-01-27 11:28:30,245 [Worker-13: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Eclipse upload\Advanced_Java\mini_project\src\main\resources
+2022-01-27 11:28:30,248 [Worker-13: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-01-27 11:28:30,249 [Worker-13: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Eclipse upload\Advanced_Java\mini_project\src\test\resources
+2022-01-27 11:37:02,304 [Worker-16: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-01-27 11:37:02,305 [Worker-16: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Eclipse upload\Advanced_Java\mini_project\src\main\resources
+2022-01-27 11:37:02,308 [Worker-16: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-01-27 11:37:02,310 [Worker-16: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Eclipse upload\Advanced_Java\mini_project\src\test\resources
+2022-01-27 11:37:13,812 [Worker-14: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-01-27 11:37:13,814 [Worker-14: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Eclipse upload\Advanced_Java\mini_project\src\main\resources
+2022-01-27 11:37:13,816 [Worker-14: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-01-27 11:37:13,817 [Worker-14: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Eclipse upload\Advanced_Java\mini_project\src\test\resources
+2022-01-27 11:38:47,540 [Worker-16: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-01-27 11:38:47,542 [Worker-16: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Eclipse upload\Advanced_Java\mini_project\src\main\resources
+2022-01-27 11:38:47,544 [Worker-16: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-01-27 11:38:47,545 [Worker-16: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Eclipse upload\Advanced_Java\mini_project\src\test\resources
+2022-01-27 11:39:19,881 [Worker-6: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-01-27 11:39:19,890 [Worker-6: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Eclipse upload\Advanced_Java\mini_project\src\main\resources
+2022-01-27 11:39:19,895 [Worker-6: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-01-27 11:39:19,898 [Worker-6: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Eclipse upload\Advanced_Java\mini_project\src\test\resources
+2022-01-27 11:41:53,281 [Worker-18: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-01-27 11:41:53,283 [Worker-18: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Eclipse upload\Advanced_Java\mini_project\src\main\resources
+2022-01-27 11:41:53,285 [Worker-18: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-01-27 11:41:53,287 [Worker-18: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Eclipse upload\Advanced_Java\mini_project\src\test\resources
+2022-01-27 11:41:56,213 [Worker-18: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-01-27 11:41:56,214 [Worker-18: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Eclipse upload\Advanced_Java\mini_project\src\main\resources
+2022-01-27 11:41:56,216 [Worker-18: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-01-27 11:41:56,218 [Worker-18: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Eclipse upload\Advanced_Java\mini_project\src\test\resources
+2022-01-27 11:43:27,995 [Worker-14: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-01-27 11:43:27,997 [Worker-14: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Eclipse upload\Advanced_Java\mini_project\src\main\resources
+2022-01-27 11:43:28,001 [Worker-14: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-01-27 11:43:28,003 [Worker-14: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Eclipse upload\Advanced_Java\mini_project\src\test\resources
+2022-01-27 11:49:39,353 [Worker-6: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-01-27 11:49:39,354 [Worker-6: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Eclipse upload\Advanced_Java\mini_project\src\main\resources
+2022-01-27 11:49:39,356 [Worker-6: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-01-27 11:49:39,357 [Worker-6: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Eclipse upload\Advanced_Java\mini_project\src\test\resources
+2022-01-27 11:49:44,647 [Worker-19: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-01-27 11:49:44,649 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Eclipse upload\Advanced_Java\mini_project\src\main\resources
+2022-01-27 11:49:44,651 [Worker-19: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-01-27 11:49:44,652 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Eclipse upload\Advanced_Java\mini_project\src\test\resources
+2022-01-27 11:49:58,225 [Worker-6: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2022-01-27 11:52:34,638 [Worker-19: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-01-27 11:52:34,639 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Eclipse upload\Advanced_Java\mini_project\src\main\resources
+2022-01-27 11:52:34,641 [Worker-19: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-01-27 11:52:34,642 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Eclipse upload\Advanced_Java\mini_project\src\test\resources
+2022-01-27 11:52:55,036 [Worker-18: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-01-27 11:52:55,037 [Worker-18: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Eclipse upload\Advanced_Java\mini_project\src\main\resources
+2022-01-27 11:52:55,038 [Worker-18: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-01-27 11:52:55,039 [Worker-18: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Eclipse upload\Advanced_Java\mini_project\src\test\resources
+2022-01-27 12:08:01,163 [Worker-20: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-01-27 12:08:01,164 [Worker-20: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Eclipse upload\Advanced_Java\mini_project\src\main\resources
+2022-01-27 12:08:01,171 [Worker-20: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-01-27 12:08:01,174 [Worker-20: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Eclipse upload\Advanced_Java\mini_project\src\test\resources
+2022-01-27 12:08:35,468 [Worker-22: Launching TravelAgencyRunner] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/singletonemf: com.xworkz:singletonemf:0.0.1-SNAPSHOT with classifier null to /singletonemf/target/classes
+2022-01-27 12:08:35,602 [Worker-22: Launching TravelAgencyRunner] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/singletonemf: com.xworkz:singletonemf:0.0.1-SNAPSHOT with classifier null to /singletonemf/target/classes
+2022-01-27 12:08:35,808 [Worker-22: Launching TravelAgencyRunner] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/singletonemf: com.xworkz:singletonemf:0.0.1-SNAPSHOT with classifier null to /singletonemf/target/classes

@@ -19,12 +19,12 @@ public class TravelDAOImpl implements TravelDAO {
 		EntityManager entityManager = emf.createEntityManager();
 		EntityTransaction tx = entityManager.getTransaction();
 		tx.begin();
-		
+
 		int flushCount = 0;
 		try {
-			for (TravelEntity travelEntity : entity){
+			for (TravelEntity travelEntity : entity) {
 				entityManager.persist(travelEntity);
-				
+
 				if (flushCount == 5) {
 					entityManager.flush();
 					flushCount = 0;
@@ -37,7 +37,7 @@ public class TravelDAOImpl implements TravelDAO {
 			e.printStackTrace();
 			tx.rollback();
 		}
-	
+
 		tx.commit();
 
 	}

@@ -49,9 +49,9 @@ public class TravelEntity implements Serializable {
 	@Column(name = "t_noOfTravellers")
 	private int noOfTravellers;// 13
 	@Column(name = "t_createdBy")
-	private String createdBy;//14
+	private String createdBy;// 14
 	@Column(name = "t_createdAt")
-	private LocalDateTime createdAt;//15
+	private LocalDateTime createdAt;// 15
 
 	public TravelEntity(String emailId, String password, int age, long mobileNo, String place, String country,
 			float cost, LocalDateTime dateOfTravel, int daysOfTravel, String travellingType, int noOfBranches,
