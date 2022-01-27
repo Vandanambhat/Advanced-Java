@@ -41,7 +41,7 @@ public class TravelAgencyServiceImpl implements TravelAgencyService {
 			System.out.println(((TravelEntity) entity).getNoOfBranches());
 			System.out.println(((TravelEntity) entity).getNoOfTravellers());
 
-			valid = true;
+			valid = false;
 			return valid;
 		}
 		if (valid) {
