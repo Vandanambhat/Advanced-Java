@@ -17,7 +17,8 @@ public class VendorRunner {
 		 * updatedBy, String updatedAt)
 		 */
 		VendorEntity entity = new VendorEntity("PostgreSQL", "sukanya@gmail.com", "Sukanya R", "kanya@789",
-				"PostgreSQL Global Development Group", "18AABCU9603R1ZM", "Vandana", LocalDateTime.now(), "Vandana", LocalDateTime.now());
+				"PostgreSQL Global Development Group", "18AABCU9603R1ZM", "Vandana", LocalDateTime.now(), "Vandana",
+				LocalDateTime.now());
 		VendorDAO dao = new VendorDAOImpl();
 
 		VendorService service = new VendorServiceImpl(dao);

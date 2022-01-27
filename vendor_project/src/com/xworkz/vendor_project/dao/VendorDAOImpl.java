@@ -27,6 +27,7 @@ public class VendorDAOImpl implements VendorDAO {
 				entityManager.close();
 			}
 		}
+		tx.commit();
 
 	}
 
