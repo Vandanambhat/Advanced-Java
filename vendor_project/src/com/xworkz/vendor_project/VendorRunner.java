@@ -19,10 +19,17 @@ public class VendorRunner {
 		VendorEntity entity = new VendorEntity("PostgreSQL", "sukanya@gmail.com", "Sukanya R", "kanya@789",
 				"PostgreSQL Global Development Group", "18AABCU9603R1ZM", "Vandana", LocalDateTime.now(), "Vandana",
 				LocalDateTime.now());
+		VendorEntity entity1=new VendorEntity("hopcoms", "Sadiya@gmail.com", "sadiyaBE", "sarwath@123", "BTM,Bengaluru", "18AABMM9603R1ZM", "vandana", LocalDateTime.now(), "Sadiya", LocalDateTime.now());
 		VendorDAO dao = new VendorDAOImpl();
 
 		VendorService service = new VendorServiceImpl(dao);
-		service.validateAndSave(entity);
+//		service.validateAndSave(entity);
+//		service.validateAndSave(entity1);
+		boolean ref=service.validateAndLogin("sadiyaBE", "sarwath@123");
+		System.out.println(ref);
+		
+		service.validateAndChangePassword("Sadiya@gmail.com", "sarwath@789");
+		
 
 	}
 

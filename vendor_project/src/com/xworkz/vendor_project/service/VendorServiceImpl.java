@@ -62,7 +62,7 @@ public class VendorServiceImpl implements VendorService {
 			return valid;
 		}
 
-		if (entity.getAddress() != null && !(entity.getAddress().isEmpty()) && entity.getAddress().length() >= 30
+		if (entity.getAddress() != null && !(entity.getAddress().isEmpty()) && entity.getAddress().length() >= 10
 				&& entity.getAddress().length() <= 100) {
 			valid = true;
 			System.out.println("Given address is valid");
@@ -82,9 +82,60 @@ public class VendorServiceImpl implements VendorService {
 			return valid;
 		}
 		if (valid) {
+
 			vendorDAO.save(entity);
+			return valid;
 		}
 		return false;
 	}
 
+	@Override
+	public boolean validateAndLogin(String loginName, String password) {
+		boolean valid = false;
+		if (loginName != null && !(loginName.isEmpty()) && loginName.length() >= 8 && loginName.length() <= 12
+				&& password != null && !(password.isEmpty()) && password.length() >= 8 && password.length() <= 12) {
+			valid = true;
+			System.out.println("Login Name and password is matching");
+		} else {
+			valid = false;
+			System.out.println("Login name and password does not match");
+		}
+		if (valid) {
+			boolean val = vendorDAO.findLogin(loginName, password);
+			return val;
+		}
+		return false;
+	}
+
+	@Override
+	public void validateAndChangePassword(String email, String newPassword) {
+		boolean valid = false;
+
+		if (email != null && email.length() >= 3 && email.length() <= 30 && !(email.isEmpty()) && newPassword != null
+				&& !(newPassword.isEmpty()) && newPassword.length() >= 8 && newPassword.length() <= 12) {
+
+			valid = true;
+			System.out.println("Valid Email and Password");
+
+			if (valid) {
+
+				vendorDAO.findByEmail(email);
+				valid = true;
+				System.out.println(valid);
+				System.out.println("Given Email is found");
+
+				if (valid) {
+					vendorDAO.updatePasswordByEmail(email, newPassword);
+					valid = true;
+					System.out.println("Updated password of Email" + email);
+				} else {
+					System.out.println("Given Email is not found");
+				}
+
+			} else {
+				System.out.println("Invalid Email and Password");
+
+			}
+		}
+	}
 }

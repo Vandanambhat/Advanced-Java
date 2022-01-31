@@ -8,6 +8,10 @@ import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
+import javax.persistence.NamedNativeQueries;
+import javax.persistence.NamedNativeQuery;
+import javax.persistence.NamedQueries;
+import javax.persistence.NamedQuery;
 import javax.persistence.Table;
 
 import lombok.AllArgsConstructor;
@@ -19,6 +23,11 @@ import lombok.NoArgsConstructor;
 @NoArgsConstructor
 @Entity
 @Table(name = "vendor_details")
+@NamedQueries({
+		@NamedQuery(name = "findLogin", query = "select vendor from VendorEntity as vendor where vendor.loginName=:ln and vendor.password=:pwd"),
+		@NamedQuery(name = "findByEmail", query = "select vendor from VendorEntity as vendor where vendor.email=:em"),
+		@NamedQuery(name = "updatePasswordByEmail", query = "update VendorEntity set password=:pw where email=:mail")
+})
 public class VendorEntity implements Serializable {
 
 	@Id
