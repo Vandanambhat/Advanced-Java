@@ -8,7 +8,7 @@ public class PassportServiceImpl implements PassportService{
 	private PassportRepositaryImpl passportServiceRepository;
 	
 	public PassportServiceImpl() {
-		// TODO Auto-generated constructor stub
+		System.out.println(passportServiceRepository.getClass().getSimpleName().concat(" no-arg constructor is invoked"));
 	}
 	
 	@Override
@@ -32,6 +32,7 @@ public class PassportServiceImpl implements PassportService{
 //		}
 //		else {
 //			System.out.println(entity.getIssuedAt().concat(" is not a valid issued date"));
+//		return false;
 //		}
 		
 		//ExpiresAt
@@ -41,8 +42,14 @@ public class PassportServiceImpl implements PassportService{
 		
 		//Gender
 		if(entity.getGender()!=null) {
+			valid=true;
 			System.out.println(entity.getGender());
 		}
+		else {
+			System.out.println("given Gender does not exists, please enter the correct gender");
+			return false;
+		}
+		
 		//PassportNo
 		if(entity.getPassportNo()!=null) {
 			
@@ -55,28 +62,34 @@ public class PassportServiceImpl implements PassportService{
 		else {
 			System.out.println("Given addresss is in Valid");
 			System.out.println(entity.getAddress().length());
+			return false;
 		}
 		
 		//FullName
 		if(entity.getFullName()!=null && entity.getFullName().length()>=10 && entity.getFullName().length()<=200) {
+			
 			System.out.println(entity.getFullName().concat(" is valid Full Name"));
 		}
 		else {
 			System.out.println("Entered Full Name is not valid");
 			System.out.println(entity.getFullName());
+			return false;
 		}
 		
 		//legalIssue
 		if(entity.isLegalIssue()!=false) {
+			valid =true;
 			System.out.println(" Legal Issue found, passport blocked");
 		}
 		else {
 			System.out.println(entity.isLegalIssue());
 			System.out.println("No legal issues found, person can travel");
+			return false;
 		}
 		
 		//passportpersonnelType
 		if(entity.getPassportPersonnelType()!=null) {
+			valid =true;
 			System.out.println(entity.getPassportPersonnelType());
 		}
 		else {
