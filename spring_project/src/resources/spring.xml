@@ -7,7 +7,15 @@
         http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd"> <!-- bean definitions here -->
 
 	<bean id="animeCharacter"
-		class="com.xworkz.animation.AnimeCharacter"></bean>
+		class="com.xworkz.animation.AnimeCharacter">
+		<constructor-arg value="Snow-White"></constructor-arg>
+		<constructor-arg value="female"></constructor-arg>
+		<property name="character" value="WonderWomen"></property>
+		<property name="gender" value="female"></property>
+
+	</bean>
+
+
 	<bean id="laptop" class="com.xworkz.animation.Laptop"></bean>
 	<bean id="doctor" class="com.xworkz.animation.Doctor"></bean>
 	<bean id="corona" class="com.xworkz.animation.Corona"></bean>

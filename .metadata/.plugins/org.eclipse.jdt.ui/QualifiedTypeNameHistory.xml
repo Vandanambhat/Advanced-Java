@@ -1,18 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="com.xworkz.tour.entity.SilkManufacturerEntity"/>
-    <fullyQualifiedTypeName name="com.xworkz.tour.dao.SilkManufacturerDAO"/>
-    <fullyQualifiedTypeName name="com.xworkz.tour.dao.SilkManufacturerDAOImpl"/>
-    <fullyQualifiedTypeName name="org.hibernate.Transaction"/>
-    <fullyQualifiedTypeName name="com.xworkz.tour.entity.TourEntity"/>
-    <fullyQualifiedTypeName name="com.xworkz.website.dao.WesiteDAO"/>
-    <fullyQualifiedTypeName name="com.xworkz.website.entity.WebsiteEntity"/>
-    <fullyQualifiedTypeName name="com.xworkz.website.dao.WebsiteDAO"/>
-    <fullyQualifiedTypeName name="com.xworkz.website.dao.WebsiteDAOImpl"/>
-    <fullyQualifiedTypeName name="javax.persistence.Query"/>
-    <fullyQualifiedTypeName name="com.xworkz.product.entity.ProductEntity"/>
-    <fullyQualifiedTypeName name="com.xworkz.product.dao.ProductDAO"/>
-    <fullyQualifiedTypeName name="com.xworkz.travel.utility.EMFUtil"/>
     <fullyQualifiedTypeName name="com.xworkz.travel.dao.TravelDAOImpl"/>
     <fullyQualifiedTypeName name="java.util.List"/>
     <fullyQualifiedTypeName name="java.util.ArrayList"/>
@@ -40,12 +27,6 @@
     <fullyQualifiedTypeName name="javax.persistence.Id"/>
     <fullyQualifiedTypeName name="javax.persistence.GeneratedValue"/>
     <fullyQualifiedTypeName name="javax.persistence.GenerationType"/>
-    <fullyQualifiedTypeName name="java.io.Serializable"/>
-    <fullyQualifiedTypeName name="javax.persistence.EntityManagerFactory"/>
-    <fullyQualifiedTypeName name="com.xworkz.singleton.EMFsingletonUtil"/>
-    <fullyQualifiedTypeName name="javax.persistence.EntityTransaction"/>
-    <fullyQualifiedTypeName name="javax.persistence.PersistenceException"/>
-    <fullyQualifiedTypeName name="javax.persistence.EntityManager"/>
     <fullyQualifiedTypeName name="javax.persistence.Column"/>
     <fullyQualifiedTypeName name="com.xworkz.vendor_project.dao.VendorDAO"/>
     <fullyQualifiedTypeName name="com.xworkz.vendor_project.dao.VendorDAOImpl"/>
@@ -53,11 +34,30 @@
     <fullyQualifiedTypeName name="com.xworkz.vendor_project.service.VendorServiceImpl"/>
     <fullyQualifiedTypeName name="javax.persistence.NamedQueries"/>
     <fullyQualifiedTypeName name="com.xworkz.vendor_project.entity.VendorEntity"/>
-    <fullyQualifiedTypeName name="java.time.LocalDateTime"/>
     <fullyQualifiedTypeName name="javax.persistence.NamedQuery"/>
     <fullyQualifiedTypeName name="javax.persistence.NamedNativeQueries"/>
-    <fullyQualifiedTypeName name="org.springframework.context.ApplicationContext"/>
-    <fullyQualifiedTypeName name="org.springframework.context.support.ClassPathXmlApplicationContext"/>
     <fullyQualifiedTypeName name="org.springframework.context.annotation.Bean"/>
     <fullyQualifiedTypeName name="com.xworkz.animation.AnimeCharacter"/>
+    <fullyQualifiedTypeName name="com.xworkz.animation.Laptop"/>
+    <fullyQualifiedTypeName name="java.lang.Double"/>
+    <fullyQualifiedTypeName name="com.xworkz.animation.Doctor"/>
+    <fullyQualifiedTypeName name="com.xworkz.animation.Corona"/>
+    <fullyQualifiedTypeName name="java.time.chrono.MinguoChronology"/>
+    <fullyQualifiedTypeName name="com.xworkz.animation.Minister"/>
+    <fullyQualifiedTypeName name="org.springframework.context.ApplicationContext"/>
+    <fullyQualifiedTypeName name="org.springframework.context.support.ClassPathXmlApplicationContext"/>
+    <fullyQualifiedTypeName name="java.io.Serializable"/>
+    <fullyQualifiedTypeName name="java.time.LocalDateTime"/>
+    <fullyQualifiedTypeName name="com.xworkz.injection_spring.passport.entity.contants.Gender"/>
+    <fullyQualifiedTypeName name="com.xworkz.injection_spring.passport.entity.contants.PassportPersonnelType"/>
+    <fullyQualifiedTypeName name="com.xworkz.injection_spring.passport.entity.contants.BolldGroup"/>
+    <fullyQualifiedTypeName name="com.xworkz.injection_spring.passport.entity.contants.VerifiedDocument"/>
+    <fullyQualifiedTypeName name="com.xworkz.injection_spring.passport.entity.contants.BloodGroup"/>
+    <fullyQualifiedTypeName name="com.xworkz.injection_spring.passport.daoORrepository.PassportRepository"/>
+    <fullyQualifiedTypeName name="com.xworkz.injection_spring.passport.entity.PassportEntity"/>
+    <fullyQualifiedTypeName name="com.xworkz.singleton.EMFsingletonUtil"/>
+    <fullyQualifiedTypeName name="javax.persistence.EntityManager"/>
+    <fullyQualifiedTypeName name="javax.persistence.EntityManagerFactory"/>
+    <fullyQualifiedTypeName name="javax.persistence.EntityTransaction"/>
+    <fullyQualifiedTypeName name="javax.persistence.PersistenceException"/>
 </qualifiedTypeNameHistroy>
