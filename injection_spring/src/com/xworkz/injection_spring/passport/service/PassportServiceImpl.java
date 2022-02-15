@@ -1,17 +1,29 @@
 package com.xworkz.injection_spring.passport.service;
 
+import com.xworkz.injection_spring.passport.daoORrepository.PassportRepositaryImpl;
 import com.xworkz.injection_spring.passport.entity.PassportEntity;
 
 public class PassportServiceImpl implements PassportService{
 
+	private PassportRepositaryImpl passportServiceRepository;
+	
+	public PassportServiceImpl() {
+		// TODO Auto-generated constructor stub
+	}
+	
 	@Override
 	public boolean validateAndSave(PassportEntity entity) {
+		
+		boolean valid=false;
 		
 		//IssuedBy
 		if(entity.getIssuedBy().length()>=3 && entity.getIssuedBy().length()<=135) {
 			System.out.println(entity.getIssuedBy());
+			valid =true;
 		}else {
+			
 			System.out.println(entity.getIssuedAt().concat(" is not a valid issuedBy"));
+			return false;
 		}
 		
 		//IssuedAt
@@ -73,26 +85,46 @@ public class PassportServiceImpl implements PassportService{
 		
 		//DOB
 		if(entity.getDob()!=null ) {
-			
+			valid=true;
+			System.out.println(entity.getDob());
 		}else {
-			
+			System.out.println("Invalid DOB");
+			return false;
 		}
 		
 		//Blood Group
 		if(entity.getBloodGroup()!=null) {
-			
+			valid =true;
+			System.out.println(entity.getBloodGroup());
 		}else {
-			
+			System.out.println("Invalid Blood group");
+			return false;
 		}
 		
 		//verifiedDocument
 		if(entity.getVerifiedDocument()!=null) {
-			
+			valid=true;
+			System.out.println(entity.getVerifiedDocument());
 		}
 		else {
-			
+			System.out.println("Invalid document submitted, please submit again to re-verify");
+			return false;
 		}
 		return false;
 	}
 
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
