@@ -15,7 +15,7 @@ import lombok.NoArgsConstructor;
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
-public class PassportEntity implements Serializable{
+public class PassportEntity implements Serializable {
 
 	private int pid;
 	private String issuedBy;
@@ -26,9 +26,9 @@ public class PassportEntity implements Serializable{
 	private String address;
 	private String fullName;
 	private boolean legalIssue;
-	private PassportPersonnelType passportPersonnelType; 
+	private PassportPersonnelType passportPersonnelType;
 	private LocalDateTime dob;
 	private BloodGroup bloodGroup;
 	private VerifiedDocument verifiedDocument;
-	
+
 }
