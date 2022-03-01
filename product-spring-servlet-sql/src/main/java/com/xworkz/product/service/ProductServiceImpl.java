@@ -56,8 +56,9 @@ public class ProductServiceImpl implements ProductService {
 		}
 		if (valid) {
 			repository.save(entity);
+			valid=true;
 		}
 
-		return false;
+		return valid;
 	}
 }

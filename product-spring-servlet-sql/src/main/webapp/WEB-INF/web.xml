@@ -5,7 +5,7 @@
 	version="4.0">
 	<display-name>product-spring-servlet-sql</display-name>
 	<welcome-file-list>
-		<welcome-file>EntryPage.html</welcome-file>
+		<welcome-file>ProductREgister.jsp</welcome-file>
 	</welcome-file-list>
 	<servlet>
 		<servlet-name>dispatcherServlet</servlet-name>
